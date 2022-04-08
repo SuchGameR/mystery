@@ -1,5 +1,5 @@
 h1 {
-    background-image: url(img/rick-roll.gif);
+    background-image: url(rick-roll.gif);
     background-repeat: repeat;
     font-weight: normal;
     padding-bottom: 10px;
@@ -49,13 +49,13 @@ h1::after {
  
 html {
 
-    background-image: url(img/rick-roll.gif);
+    background-image: url(rick-roll.gif);
     background-repeat: repeat;              
 
 }
  
 body {
-    background-image: url(img/rick);
+    background-image: url(rick-roll.gif);
     background-repeat: repeat-x;
     padding: 30px 180px 50px;
     max-width: 700px;
