@@ -1,0 +1,129 @@
+h1 {
+    background-image: url(img/rick-roll.gif);
+    background-repeat: repeat;
+    font-weight: normal;
+    padding-bottom: 10px;
+    text-align: center;
+    position: relative;
+}
+ 
+h2 {
+    width: 95%;
+    line-height: 2.1;
+    display: inline-block;
+    background-color: #03A9F4;
+    padding: 10px;
+    text-align: center;
+    z-index: 999;
+    margin: 30px -30 0;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+a.link {
+    color: #fff;
+    text-decoration: none;
+    background-image: url("https://cdn.vox-cdn.com/thumbor/7BMHi-0CALa3odBFMD-MJK9Ye4Y=/0x44:1268x889/1200x800/filters:focal(0x44:1268x889)/cdn.vox-cdn.com/uploads/chorus_image/image/47684009/Screenshot_2014-07-19_15.24.57.0.png");
+    display: block;
+    padding: 15px 25px;
+    border-radius: 5px;
+    box-shadow: 0 4px 0 0 #9e2b23;
+    font-weight: bold;
+    width: 300px;
+    text-align: center;
+    margin: 10px auto 0;
+    letter-spacing: 2px;
+}
+ 
+h1::after {
+    content: "";
+    display: block;
+    border-bottom: solid 5px #2196F3;
+    position: absolute;
+    width: 100px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    bottom: -5px;
+}
+ 
+html {
+
+    background-image: url(img/rick-roll.gif);
+    background-repeat: repeat;              
+
+}
+ 
+body {
+    background-image: url(img/rick);
+    background-repeat: repeat-x;
+    padding: 30px 180px 50px;
+    max-width: 700px;
+    margin: 20px auto;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.18);
+    border-radius: 3px;
+    position: relative;
+}
+
+.logo img {
+    object-position: -10px;
+    object-position: right top;
+    text-align: right;
+}
+
+p {
+    text-align: center;
+}
+
+
+
+
+button.btn {
+    background: #00c8ff;
+    font-size: 0.9rem;
+    font-weight: 900;
+    line-height: 1.2;
+    position: relative;
+    display: inline-block;
+    padding: 0.3rem 2.28rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0rem;
+    color: #ffffff;
+    border-radius: 1rem;
+}
+  
+a.btn-border-shadow--radius {
+    border-radius: 100vh;
+}
+
+a.btn-border-shadow {
+    padding: calc(1.5rem - 12px) 3rem 1.5rem;
+  
+    background: #fff;
+}
+  
+
+.btn--orange,
+a.btn--orange {
+  color: #fff;
+  background-color: #eb6100;
+}
+
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: #fff;
+  background: #f56500;
+}
+
+a.btn--radius {
+  border-radius: 1vh;
+}
